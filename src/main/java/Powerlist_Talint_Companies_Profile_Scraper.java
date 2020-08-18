@@ -3,6 +3,11 @@ import java.io.InputStream;
 import java.net.URL;
 
 public class Powerlist_Talint_Companies_Profile_Scraper {
+    
+    //The Powerlist
+    //The Power List helps the UK's top 500 recruitment companies to differentiate themselves from thousands of competitors.
+    //URL: https://powerlist.talint.co.uk/
+    
     public static void main(String[] args) {
         for (int pageNumber =1; pageNumber<=51; pageNumber++){
             try {
